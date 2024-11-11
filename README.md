@@ -6,11 +6,11 @@
 
 This project aims to predict heart disease based on patient data such as blood pressure, cholesterol levels, age, etc. 
 
-#### 3. Approach
+#### 2. Steps
 
 1. Data Loading: The heart disease dataset is loaded from a zip file.
 
-2. Data Cleaning: Missing or erroneous values (like 0 in RestingBP and Cholesterol) are replaced with the median value of their respective columns.
+2. Data Cleaning: Missing or erroneous values (like 0 in RestingBP and Chohttps://github.com/MiltonGreat/ICU-Mortality-Risk-Prediction/tree/mainlesterol) are replaced with the median value of their respective columns.
 
 3. Feature Engineering: Categorical variables like Sex, ChestPainType, RestingECG, etc., are transformed using one-hot encoding, creating binary columns.
 
@@ -34,7 +34,7 @@ This project aims to predict heart disease based on patient data such as blood p
 
 10. Model Persistence: The best model is saved to a file using joblib for future use.
 
-#### 4. Key Findings
+#### 3. Key Findings
       
 - Overall Churn Rate: 26.54%.
 - Churn Rate by Contract Type: Month-to-month contracts show the highest churn (42.7%), while two-year contracts have the lowest churn (2.8%).
